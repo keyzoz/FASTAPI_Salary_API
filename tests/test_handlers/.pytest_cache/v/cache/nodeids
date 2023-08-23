@@ -1,0 +1,16 @@
+[
+  "test_create_handler.py::test_create_salary_info",
+  "test_create_handler.py::test_create_user",
+  "test_delete_handler.py::test_delete_another_user_error[user_for_deletion0-user_who_delete0]",
+  "test_delete_handler.py::test_delete_another_user_error[user_for_deletion1-user_who_delete1]",
+  "test_delete_handler.py::test_delete_another_user_error[user_for_deletion2-user_who_delete2]",
+  "test_delete_handler.py::test_delete_salary_info",
+  "test_delete_handler.py::test_delete_user",
+  "test_delete_handler.py::test_delete_user_by_roles[user_role_list0]",
+  "test_get_handler.py::test_get_user_by_id",
+  "test_role_manipulations.py::test_add_admin_role_to_user_by_superadmin",
+  "test_role_manipulations.py::test_add_admin_role_to_user_by_superuser",
+  "test_role_manipulations.py::test_delete_user_by_roles",
+  "test_update_handler.py::test_update_salary_info",
+  "test_update_handler.py::test_update_user"
+]

@@ -1,0 +1,6 @@
+{
+  "test_role_manipulations.py::test_delete_user_by_roles": true,
+  "test_role_manipulations.py::test_add_admin_role_to_user_by_superadmin": true,
+  "test_delete_handler.py::test_delete_salary_info": true,
+  "test_update_handler.py::test_update_salary_info": true
+}
