@@ -100,10 +100,23 @@ REST-сервис содержит в себе следующие функции
 - Зарплатные данные
     - `/user/salary`, принимает токен, при валидности токена отдает данные текущего пользователя
 
-## Примеры работы API-сервиса
+## Некотрорые примеры работы API-сервиса
 
-![Auth](https://gitlab.com/keyzoz/salary_api_task/raw/main/doc_images/auth.png)
+__Получение токена, используя логин и пароль__
+
+<img width="1437" alt="image" src="https://gitlab.com/keyzoz/salary_api_task/raw/main/doc_images/auth.png">
+
+__Получение зарплатных данных пользователя, при успешной аутентификации__
+
+<img width="1437" alt="image" src="https://gitlab.com/keyzoz/salary_api_task/raw/main/doc_images/get_salary_info.png">
+
+__Получение данных о пользователе по id при успешной авторизации__
+
+<img width="1437" alt="image" src="https://gitlab.com/keyzoz/salary_api_task/raw/main/doc_images/get_user_info.png">
+
 
 ## Swagger documentation
+
+<img width="1437" alt="image" src="https://gitlab.com/keyzoz/salary_api_task/raw/main/doc_images/swagger.png">
 
 
