@@ -37,7 +37,11 @@ alembic init migrations
 ```
 from myapp import mymodel
 ```
-
+Меняем на 
+```
+from db.models import Base
+target_metadata = Base.metadata
+```
 - Дальше вводим: ```alembic revision --autogenerate -m "comment"``` - делается при любых изменениях моделей
 - Будет создана миграция
 - Дальше вводим: ```alembic upgrade heads```
